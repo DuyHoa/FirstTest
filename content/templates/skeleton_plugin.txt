@@ -1,0 +1,32 @@
+<div class = "ske_bodycontent" id="ske_popup">
+	<div class="ske_chattag" id="content_ske" style="display: none;">
+		<div class="ske_chatContainer">
+			<div class="ske_close_bt" id="button_close_top"><li>-</li></div>
+			<div class="ske_chatMessages">
+				<p>Bạn đang gặp khó khăn vấn đề gì</p>
+				<form action="#" class="ske_button_form">
+					<center>
+						<div class = "ske_bt1"><a type="button" id = "bt1" name="bt1"></a></div>
+						<div class = "ske_bt2"><a type="button" id = "bt2" name="bt1"></a></div>
+						<div class = "ske_bt3"><a type="button" id = "bt3" name="bt1"></a></div>
+					</center>
+				</form>
+			</div>
+		</div>
+	</div>
+<div class="ske_mess" id="mb">
+	<div class = "ske_mess_content" id = "hello_content" style="display: none;">
+		<li id="conten_welcome1" class = "ske_mess_wel1"></li>
+		<li id="conten_welcome2" class = "ske_mess_wel1"></li>
+	</div>
+	<div class= "ske_mess_button">
+		<div class= "ske_mess_button_sub">
+			<svg viewbox="0 0 100 100"  width="93%" id="svg_tag" class = "ske_bt_bot">			
+				<circle class="ske_background" cx="49.9" cy="49.9" r="49.9" fill="none" stroke-width = "1"/>
+				<image id="im" class="ske_img" />
+			</svg>
+		</div>
+			<span class="ske_notification-num" id="hello_notification">hi</span>
+		</div>
+	</div>
+</div>

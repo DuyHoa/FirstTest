@@ -1,0 +1,15 @@
+"var url_img_close" = "";
+"var url_img_icon" = ""; 
+"var button_func_1" = "Nâng cấp tài khoản Slimweb?";
+"var button_func_2" = "Xây dựng landing site";
+"var button_func_3" = "Gia hạn tài khoản";
+"var url_link_1" = '#';
+"var url_link_2" = '#';
+"var url_link_3" = '#';
+"var time_delay" = 4; 
+"var time_delay_icon" = 1;
+"var content_welcome1" = "Xin Chào, mình là Linda!";
+"var content_welcome2" = "B?n dang gặpp khó khan, cần tư vấn";
+"var num_of_button" = 3;
+"var font_" = "roboto";
+"var height_mb" = 360;
