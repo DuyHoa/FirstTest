@@ -134,7 +134,14 @@ function turn_on_of_table_emoji(){
 
 
 /*function insert_emoji(){
-	
+	$('.blockEmoji').click(function(){
+		var _id = this.id.slice(10);
+		var str = emojis[_id];
+		var c = document.getElementById("as");
+		c.value += emojis[_id];
+			//ctl.val.substring(start_pos_cursor, end_pos_cursor)
+				
+	});
 }
 
 //SELECT * FROM cp.`*.json`
