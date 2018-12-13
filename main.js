@@ -85,14 +85,6 @@ function QuerryEmoji(){
 		block_emoji.className = "blockEmoji";
 		block_emoji.id = "blockEmoji" + i;
 		block_emoji.innerHTML = String.fromCodePoint(emojis[i]);
-		block_emoji.onclick = function(){
-			var ctl = document.getElementById("tx");
-			var start_pos_cursor = ctl.selectionStart;
-			var end_pos_cursor = ctl.selectionEnd;
-			alert(/&#x1F600);
-			ctl.val.substring(start_pos_cursor, end_pos_cursor)
-			
-		}
 		
 		//if(i >= 5 && i%5 == 0){
 		//	block_emoji.style.display = "inline-block";
@@ -142,6 +134,14 @@ function turn_on_of_table_emoji(){
 			//ctl.val.substring(start_pos_cursor, end_pos_cursor)
 				
 	});
+	
+	var ctl = document.getElementById("tx");
+	var start_pos_cursor = ctl.selectionStart;
+	var end_pos_cursor = ctl.selectionEnd;
+	alert(/&#x1F600);
+	ctl.val.substring(start_pos_cursor, end_pos_cursor)
+			
+
 }
 
 //SELECT * FROM cp.`*.json`
